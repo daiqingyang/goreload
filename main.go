@@ -56,7 +56,7 @@ func help() {
 	old := flag.Usage
 	flag.Usage = func() {
 		old()
-		fmt.Println("  cd workspace,run goreload,this whill auto build code and run\n")
+		fmt.Println("  cd workspace,run goreload,this will auto build code and run\n")
 	}
 	flag.Parse()
 }
